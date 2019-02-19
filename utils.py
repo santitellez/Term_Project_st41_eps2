@@ -1,3 +1,4 @@
+import numpy as np
 
 # Create submission DataFrame
 def create_submission(csv_name, predictions, image_ids):
