@@ -1,9 +1,10 @@
 import numpy as np
+import pandas as pd
 
 # Create submission DataFrame
 def create_submission(csv_name, predictions, image_ids):
     """
-    csv_name -> string for csv ("XXXXXXX.csv")
+    csv_name -> string for csv ('XXXXXXX.csv')
     predictions -> numpyarray of size (num_examples, height, width)
                 In this case (num_examples, 512, 512)
     image_ids -> numpyarray or list of size (num_examples,)
